@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EDJEAN</title>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="contact.html"> Contact Me</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li id="logo-hover" >MY PORTFOLIO</li>
+                <li onclick="nav()">&#x2630;</li>
+            </ul>
+        </nav>
+        <div class="second-nav" id="show">
+            <div><a href="about.html">ABOUT</a></div>
+            <div><a href="index.html">HOME</a></div>
+            <div><a href="contact.html">CONTACTME</a></div>
+        </div>
+              
+    </div>
+
+    <div class="container">
+
+        <div class="image--in">
+            <img src="balo.jpg" alt="image">
+        </div>
+
+        <div class="text--in">
+            <p>HI I'M</p>
+            <p>EDJEAN L.</p>
+            <p>AMPARADO</p>
+        </div>
+        <div class="text">
+            <p>JEREMIAH 29:11 NIV[11]<p>
+            <p>"FOR I KNOW THE PLANS I HAVE FOR YOU," 
+               <p>DECLARES THE LORD, "PLANS TO PROSPER YOU AND</p>
+               <p> NOT TO HARM YOU, PLANS TO GIVE YOU HOPE AND</p>
+               <p> A FUTURE"</p>
+        </div>
+
+
+        </div>
+    </div>
+</body>
+<script> 
+    function nav() {
+        let x = document.getElementById('show');
+
+        if (x.style.display ==="block") {
+            x.style.display = "none";
+        }else{
+            x.style.display ="block";
+        }
+        }
+    
+</script>
+
+
+</html>
